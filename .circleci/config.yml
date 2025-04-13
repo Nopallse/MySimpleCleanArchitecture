@@ -19,7 +19,7 @@ jobs:
           name: Give gradlew execute permission
           command: chmod +x ./gradlew
 
-      # Run lint and unit tests
+      # Run lint and unit testsa
       - android/run-tests:
           test-command: ./gradlew lint testDebug --continue
 
